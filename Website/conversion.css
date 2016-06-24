@@ -1,0 +1,153 @@
+body {
+    margin: 0px;
+/*    background-color: #002830;*/
+    width: 1366px;
+    background: url(images/Background.png) no-repeat top center ;
+    background-color: #f2ede4;
+    background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+/*    font-family: Montserrat Light, sans-serif;*/
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url(Montserrant-Light.otf);
+}
+
+/* Navigation */
+a {
+    font-family: Montserrat;
+    color: #002830;
+    text-decoration: none;
+    font-weight: lighter;
+    padding: 14px;
+}
+
+/*Top Nav Bar */
+
+.navbar {
+    background-color:#f2ede4;
+    width: 300px;
+    height: 40px;
+    position: fixed;
+    right: 0px;
+    top: 0px;
+    text-align: center;
+    -webkit-padding-start: 0px;
+}
+
+.navbar > ul > li {
+    display: inline ;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    letter-spacing: 5px;
+    font-size: .75em;
+}
+
+.navbar > ul {
+    margin-top: 10px;
+    -webkit-padding-start: 0px;
+}
+
+.navbar > ul > li > a:hover {
+    color: #fffbd1;
+    background: #01968e;
+}
+
+/* Footer */
+
+.footer {
+    background-color: #dbf83f;
+    height: 40px;
+    position: fixed;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    text-align: center;
+}
+
+.footer > ul > li {
+    font-family: Montserrat;
+    font-weight: lighter;
+    display: inline;
+    padding-bottom: 14px;
+    letter-spacing: 5px;
+    font-size: .75em;
+}
+
+.footer > ul {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    -webkit-padding-start: 0px;
+}
+
+.footer > ul > li > a:hover {
+    color: #01968e;
+}
+
+/* Home */
+.logo {
+    position: absolute;
+    right: 20px;
+    bottom: 70px;
+    /*    float: right;*/
+}
+
+/* Work */
+.Work {
+    margin-left: 100px;
+    margin-top: 75px;
+}
+
+.Gallery > ul > li {
+    display: inline;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.Gallery {
+    margin-top: 100px;
+}
+
+.work {
+    clear: both;
+}
+
+#homepage, #workpage, #aboutpage {
+    height: 786px;
+}
+
+/* About */
+.About {
+    margin-left: 100px;
+    margin-top: 75px;
+}
+
+article {
+    font-family: Montserrat;
+    font-weight: 100;
+    margin-left: 150px;
+    margin-top: 25px;
+    margin-right: 25px;
+    max-width: 350px;
+    position: absolute;
+}
+
+article > p > a {
+    font-family: Montserrat;
+    font-weight: 200;
+    padding-left: 6px;
+    padding-right: 0px;
+}
+
+h1 {
+    font-size: 1.2em;
+}
+
+#profilepic {
+    position: absolute;
+    right: 150px;
+    width: 400px;
+}
